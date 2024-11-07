@@ -99,7 +99,7 @@ a:hover {
 
 .triangle {
     display: inline-block;
-    font-size: 1.2em; /* Larger triangle */
+    font-size: 1.2rem; /* Larger triangle */
     transition: transform 0.3s ease; /* Smooth rotation */
     margin-right: 8px;
 }
