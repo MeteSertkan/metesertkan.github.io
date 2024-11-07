@@ -1,272 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mete Sertkan</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <h1>Mete Sertkan</h1>
+        <h1>Mete Sertkan</h1>
     </header>
     <section id="about">
-      <div class="profile">
-        <img src="profile.png" alt="Mete Sertkan's Profile Picture" class="profile-pic">
-      </div>
-      <div class="intro">
-        <p>Hello there 👋 This is <b>Mete</b>. </p>
-        <p>I’m passionate about exploring how we can understand <b>preferences</b>, model <b>user behavior</b>, and enhance <b>recommendation systems</b> and <b>information retrieval</b> to make technology feel more personal and meaningful. </p>
-        <p>Connect with me on <a target="_blank" href="https://twitter.com/m_sertkan">Twitter</a>, <a target="_blank" href="https://www.linkedin.com/in/mete-sertkan/">LinkedIn</a>, and <a target="_blank" href="https://github.com/MeteSertkan">GitHub</a>, or explore my <a target="_blank" href="https://drive.google.com/file/d/1J8o0WEJ6TCYHnDNUs0c75BFsslcRGSeJ/view?usp=sharing">CV</a>. </p>
-      </div>
+        <div class="profile"> <img src="profile.png" alt="Mete Sertkan's Profile Picture" class="profile-pic"> </div>
+        <div class="intro">
+            <p>Hello there 👋 This is <b>Mete</b>. </p>
+            <p>I’m passionate about exploring how we can understand <b>preferences</b>, model <b>user behavior</b>, and enhance <b>recommendation systems</b> and <b>information retrieval</b> to make technology feel more personal and meaningful. </p>
+            <p>Connect with me on <a target="_blank" href="https://twitter.com/m_sertkan">Twitter</a>, <a target="_blank" href="https://www.linkedin.com/in/mete-sertkan/">LinkedIn</a>, and <a target="_blank" href="https://github.com/MeteSertkan">GitHub</a>, or explore my <a target="_blank" href="https://drive.google.com/file/d/1J8o0WEJ6TCYHnDNUs0c75BFsslcRGSeJ/view?usp=sharing">CV</a>. </p>
+        </div>
     </section>
     <section id="overview">
-      <h2>About Me</h2>
-      <p>I ’m a passionate researcher and final-year PhD student at TU Wien, driven by a deep curiosity for understanding data and improving personalized recommendation systems. My work centers on uncovering implicit item characteristics to enhance recommendation relevance and user satisfaction, particularly in scenarios where limited interaction data poses challenges for traditional approaches. I’m dedicated to decoding subtle user preferences that are often unspoken yet influential. Alongside this, I have a strong interest in information retrieval and the rigorous evaluation of these technologies, which fuels my continuous drive to innovate within the field.</p>
+        <h2>About Me</h2>
+        <p>I ’m a passionate researcher and final-year PhD student at TU Wien, driven by a deep curiosity for understanding data and improving personalized recommendation systems. My work centers on uncovering implicit item characteristics to enhance recommendation relevance and user satisfaction, particularly in scenarios where limited interaction data poses challenges for traditional approaches. I’m dedicated to decoding subtle user preferences that are often unspoken yet influential. Alongside this, I have a strong interest in information retrieval and the rigorous evaluation of these technologies, which fuels my continuous drive to innovate within the field.</p>
     </section>
     <section id="research">
-      <h2>Research</h2>
-      <div class="research-area">
-        <h3 class="toggle-title" onclick="toggleList('ir-list')">
-          <span class="triangle">&#9656;</span>IR & RecSys Evaluation
-        </h3>
-        <p>My research in Information Retrieval and Natural Language Processing has focused on developing robust evaluation methodologies across multiple test collections, with applications in both IR and Recommender Systems. This work is inspired by the need for more reliable, multi-task evaluation techniques that demonstrate the accuracy and applicability of these technologies.</p>
-        <ul id="ir-list" class="toggle-list">
-          <li>
-            <b>2023 - ACL</b>
-            <br />
-            <a target="_blank" href="https://aclanthology.org/2023.acl-demo.56/">Ranger: A Toolkit for Effect-Size Based Multi-Task Evaluation</a> - <a target="_blank" href="https://github.com/MeteSertkan/ranger">repo</a>
-            <br /> Mete Sertkan, Sophia Althammer, Sebastian Hofstätter
-          </li>
-          <li>
-            <b>2023 - RecSys, PERSPECTIVES</b>
-            <br />
-            <a target="_blank" href="https://ceur-ws.org/Vol-3476/paper2.pdf">Exploring Effect-Size-Based Meta-Analysis for Multi-Dataset Evaluation</a> - <a target="_blank" href="https://github.com/MeteSertkan/meta-analysis-based-recsys-eval">repo</a>
-            <br /> Mete Sertkan, Sophia Althammer, Sebastian Hofstätter, Peter Knees, Julia Neidhardt
-          </li>
-          <li>
-            <b>2021 - TREC</b>
-            <br />
-            <a target="_blank" href="https://trec.nist.gov/pubs/trec30/papers/TU_Vienna-DL-Pod.pdf">TU Wien at TREC DL and Podcast 2021: Simple Compression for Dense Retrieval</a>
-            <br /> Sebastian Hofstätter, Mete Sertkan, Allan Hanbury
-          </li>
-        </ul>
-      </div>
-      <div class="research-area">
-        <h3 class="toggle-title" onclick="toggleList('news-list')">
-          <span class="triangle">&#9656;</span>News Recommendations - Sentiments, Emotions, and Diversity
-        </h3>
-        <p>In this research trajectory, I focus on enhancing news recommendation systems by incorporating sentiment and emotional cues, while exploring their effects on diversity in recommendations. This work highlights both the benefits and risks of sentiment-based models in promoting diverse content.</p>
-        <ul id="news-list" class="toggle-list">
-          <li>
-            <b>2023 - RecSys, INRA</b>
-            <br />
-            <a target="_blank" href="https://ceur-ws.org/Vol-3561/paper5.pdf">On the Effect of Incorporating Expressed Emotions in News Articles on Diversity within Recommendation Models</a> - <a target="_blank" href="https://github.com/MeteSertkan/EmoRec">repo</a>
-            <br /> Mete Sertkan, Julia Neidhardt
-          </li>
-          <li>
-            <b>2022 - UMAP</b>
-            <br />
-            <a target="_blank" href="https://doi.org/10.1145/3511047.3536414">Exploring Expressed Emotions for Neural News Recommendation</a> - <a target="_blank" href="https://github.com/MeteSertkan/EmoRec">repo</a>
-            <br /> Mete Sertkan, Julia Neidhardt
-          </li>
-          <li>
-            <b>2022 - RecSys, PERSPECTIVES</b>
-            <br />
-            <a target="_blank" href="https://ceur-ws.org/Vol-3228/paper3.pdf">Diversifying Sentiments in News Recommendation</a> - <a target="_blank" href="https://github.com/MeteSertkan/newsrec">repo</a>
-            <br /> Mete Sertkan, Sofia Althammer, Sebastian Hofstätter, Julia Neidhardt
-          </li>
-          <li>
-            <b>2022 - ECIR, BIAS</b>
-            <br />
-            <a target="_blank" href="https://doi.org/10.1007/978-3-031-09316-6_4">Towards an Approach for Analyzing Dynamic Aspects of Bias and Beyond-Accuracy Measures</a>
-            <br /> Julia Neidhardt, Mete Sertkan
-          </li>
-        </ul>
-      </div>
-      <div class="research-area">
-        <h3 class="toggle-title" onclick="toggleList('tourism-list')">
-          <span class="triangle">&#9656;</span>Tourism Recommendations - Preference Elicitation and User Profiling
-        </h3>
-        <p>In this research, I explored tourism destination characteristics by leveraging gamified image-based strategies to uncover implicit user preferences. The focus was on understanding and predicting user needs through subtle preference elicitation techniques.</p>
-        <ul id="tourism-list" class="toggle-list">
-          <li>
-            <b>2020 - RecSys</b>
-            <br />
-            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3383313.3411526">PicTouRe - A Picture-Based Tourism Recommender</a> - <a target="_blank" href="https://github.com/MeteSertkan/PicTouRe">repo</a>
-            <br /> Mete Sertkan, Julia Neidhardt, Hannes Werthner
-          </li>
-          <li>
-            <b>2020 - UMAP</b>
-            <br />
-            <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3340631.3394868">Eliciting Touristic Profiles: A User Study on Picture Collections</a> - <a target="_blank" href="https://github.com/MeteSertkan/PicTouRe">repo</a>
-            <br /> Mete Sertkan, Julia Neidhardt, Hannes Werthner
-          </li>
-          <li>
-            <b>2019 - JITT</b>
-            <br />
-            <a target="_blank" href="https://doi.org/10.1007/s40558-018-0135-6">What is the “Personality” of a Tourism Destination?</a> - <span>🏆 Article of the Year</span>
-            <br /> Mete Sertkan, Julia Neidhardt, Hannes Werthner
-          </li>
-        </ul>
-      </div>
-      <p> For an extensive list of publications visit <a target="_blank" href="https://scholar.google.at/citations?user=z0tbYJ0AAAAJ&hl=en">Google Scholar</a>. </p>
+        <h2>Research</h2>
+        <div class="research-area">
+            <h3>IR & RecSys Evaluation</h3>
+            <p>My research in Information Retrieval and Natural Language Processing has focused on developing robust evaluation methodologies across multiple test collections, with applications in both IR and Recommender Systems. This work is inspired by the need for more reliable, multi-task evaluation techniques that demonstrate the accuracy and applicability of these technologies.</p>
+            <p class="toggle-title" onclick="toggleList('ir-list')"><span class="triangle">&#9656;</span>Publications</p>
+            <ul id="ir-list" class="toggle-list">
+                <li> <b>2023 - ACL</b> <br /> <a target="_blank" href="https://aclanthology.org/2023.acl-demo.56/">Ranger: A Toolkit for Effect-Size Based Multi-Task Evaluation</a> - <a target="_blank" href="https://github.com/MeteSertkan/ranger">repo</a> <br /> Mete Sertkan, Sophia Althammer, Sebastian Hofstätter </li>
+                <li> <b>2023 - RecSys, PERSPECTIVES</b> <br /> <a target="_blank" href="https://ceur-ws.org/Vol-3476/paper2.pdf">Exploring Effect-Size-Based Meta-Analysis for Multi-Dataset Evaluation</a> - <a target="_blank" href="https://github.com/MeteSertkan/meta-analysis-based-recsys-eval">repo</a> <br /> Mete Sertkan, Sophia Althammer, Sebastian Hofstätter, Peter Knees, Julia Neidhardt </li>
+                <li> <b>2021 - TREC</b> <br /> <a target="_blank" href="https://trec.nist.gov/pubs/trec30/papers/TU_Vienna-DL-Pod.pdf">TU Wien at TREC DL and Podcast 2021: Simple Compression for Dense Retrieval</a> <br /> Sebastian Hofstätter, Mete Sertkan, Allan Hanbury </li>
+            </ul>
+        </div>
+        <div class="research-area">
+            <h3>News Recommendations - Sentiments, Emotions, and Diversity</h3>
+            <p>In this research trajectory, I focus on enhancing news recommendation systems by incorporating sentiment and emotional cues, while exploring their effects on diversity in recommendations. This work highlights both the benefits and risks of sentiment-based models in promoting diverse content.</p>
+            <p class="toggle-title" onclick="toggleList('news-list')"> <span class="triangle">&#9656;</span>Publications</p>
+            <ul id="news-list" class="toggle-list">
+                <li> <b>2023 - RecSys, INRA</b> <br /> <a target="_blank" href="https://ceur-ws.org/Vol-3561/paper5.pdf">On the Effect of Incorporating Expressed Emotions in News Articles on Diversity within Recommendation Models</a> - <a target="_blank" href="https://github.com/MeteSertkan/EmoRec">repo</a> <br /> Mete Sertkan, Julia Neidhardt </li>
+                <li> <b>2022 - UMAP</b> <br /> <a target="_blank" href="https://doi.org/10.1145/3511047.3536414">Exploring Expressed Emotions for Neural News Recommendation</a> - <a target="_blank" href="https://github.com/MeteSertkan/EmoRec">repo</a> <br /> Mete Sertkan, Julia Neidhardt </li>
+                <li> <b>2022 - RecSys, PERSPECTIVES</b> <br /> <a target="_blank" href="https://ceur-ws.org/Vol-3228/paper3.pdf">Diversifying Sentiments in News Recommendation</a> - <a target="_blank" href="https://github.com/MeteSertkan/newsrec">repo</a> <br /> Mete Sertkan, Sofia Althammer, Sebastian Hofstätter, Julia Neidhardt </li>
+                <li> <b>2022 - ECIR, BIAS</b> <br /> <a target="_blank" href="https://doi.org/10.1007/978-3-031-09316-6_4">Towards an Approach for Analyzing Dynamic Aspects of Bias and Beyond-Accuracy Measures</a> <br /> Julia Neidhardt, Mete Sertkan </li>
+            </ul>
+        </div>
+        <div class="research-area">
+            <h3>Tourism Recommendations - Preference Elicitation and User Profiling</h3>
+            <p>In this research, I explored tourism destination characteristics by leveraging gamified image-based strategies to uncover implicit user preferences. The focus was on understanding and predicting user needs through subtle preference elicitation techniques.</p>
+            <p class="toggle-title" onclick="toggleList('tourism-list')"> <span class="triangle">&#9656;</span>Publications</p>
+            <ul id="tourism-list" class="toggle-list">
+                <li> <b>2020 - RecSys</b> <br /> <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3383313.3411526">PicTouRe - A Picture-Based Tourism Recommender</a> - <a target="_blank" href="https://github.com/MeteSertkan/PicTouRe">repo</a> <br /> Mete Sertkan, Julia Neidhardt, Hannes Werthner </li>
+                <li> <b>2020 - UMAP</b> <br /> <a target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3340631.3394868">Eliciting Touristic Profiles: A User Study on Picture Collections</a> - <a target="_blank" href="https://github.com/MeteSertkan/PicTouRe">repo</a> <br /> Mete Sertkan, Julia Neidhardt, Hannes Werthner </li>
+                <li> <b>2019 - JITT</b> <br /> <a target="_blank" href="https://doi.org/10.1007/s40558-018-0135-6">What is the “Personality” of a Tourism Destination?</a> - <span>🏆 Article of the Year</span> <br /> Mete Sertkan, Julia Neidhardt, Hannes Werthner </li>
+            </ul>
+        </div>
+        <p> For an extensive list of publications visit <a target="_blank" href="https://scholar.google.at/citations?user=z0tbYJ0AAAAJ&hl=en">Google Scholar</a>. </p>
     </section>
     <section id="experience">
-      <h2>Professional Experience</h2>
-      <div class="experience-item">
-        <h3 class="toggle-title" onclick="toggleList('tuwien-list')">
-          <span class="triangle">&#9656;</span>Oct. 2018 - Jan. 2024, Research Assistant
-        </h3>
-        <a target="_blank" href="https://www.tuwien.at/en/">TU Wien</a>, Austria <ul id="tuwien-list" class="toggle-list">
-          <li>
-            <strong>Published 30+ research papers (15 as first author), with 450+ citations</strong>, by conducting extensive research in Information Retrieval (IR) and Recommender Systems (RecSys) and collaborating with diverse research teams.
-          </li>
-          <li>
-            <strong>Increased accessibility and impact of research tools</strong> by developing and open-sourcing IR and RecSys demos, repositories, and tools, resulting in 20+ GitHub stars and 10+ forks.
-          </li>
-          <li>
-            <strong>Led industry collaboration and grant writing efforts</strong>, securing funding (thousands of euros) and maintaining partnerships with companies like <a href="https://geizhals.at">Geizhals</a>, <a href="https://www.falter.at">Falter</a>, <a href="https://youknowme.best/">YouKnowMeBest</a>, <a href="https://www.oida-app.com">OIDA</a>, and <a href="https://tripmakery.com">Tripmakery</a>. Gathered industry requirements, translated them into applied research plans, and aligned lab goals with partner business objectives through regular meetings and updates.
-          </li>
-          <li>
-            <strong>Independently led and transitioned a 70-student Social Network Analysis course online</strong> during COVID-19, covering all lectures, Zoom sessions, and assessments in the primary lecturer’s absence due to maternity leave.
-          </li>
-          <li>
-            <strong>Enhanced inclusivity in a 130-student Recommender Systems course</strong> by shifting practicals to auto-graded Jupyter Notebooks and managing Jupyter Lab resources, ensuring access for students with limited technology.
-          </li>
-          <li>
-            <strong>Mentored 30 students annually in Innovation course</strong>, guiding student teams of 5 through ideation, business plan development, mockups, pitches, and financial projections, including cost, revenue, and break-even calculations.
-          </li>
-        </ul>
-      </div>
-      <div class="experience-item">
-        <h3 class="toggle-title" onclick="toggleList('wingpaper-list')">
-          <span class="triangle">&#9656;</span>Sept. 2014 - Sept. 2017, Data Engineer
-        </h3>
-        <a target="_blank" href="https://www.linkedin.com/company/wingpaper/">Wingpaper</a>, Austria <ul id="wingpaper-list" class="toggle-list">
-          <li>
-            <strong>Boosted system scalability</strong> by designing and implementing a microservice architecture with Redis and RabbitMQ.
-          </li>
-          <li>
-            <strong>Increased document processing speed by 12x (from 2 to 24 pages per second)</strong> by developing and scaling microservices for indexing, information extraction (using Elastic and Python), and PDF-to-HTML5 conversion (pdf2htmlex).
-          </li>
-          <li>
-            <strong>Improved recommendations, achieving a .25 improvement in NDCG@5 and a 5% increase in CTR</strong> by building a hybrid recommender system that combines content-based (keyword extraction) and collaborative filtering (interaction data) techniques using Python.
-          </li>
-        </ul>
-      </div>
-      <div class="experience-item">
-        <h3 class="toggle-title" onclick="toggleList('hypercms-list')">
-          <span class="triangle">&#9656;</span>Apr. 2008 - Aug. 2014, Web Developer
-        </h3>
-        <a target="_blank" href="https://www.hypercms.com/home/index.xhtml?langcode=EN">hyperCMS </a>, Austria <ul id="hypercms-list" class="toggle-list">
-          <li>
-            <strong>Developed custom modules and templates</strong> using HTML, CSS, JavaScript, PHP, and MySQL for <strong>clients in 20+ countries</strong>, supporting <strong>over 500 employees</strong>. The resulting webpages <strong>served millions of customers</strong>.
-          </li>
-          <li>
-            <strong>Built a fully integrated e-learning platform</strong> within the CMS, featuring custom templates for <strong>quizzes, automated grading, and certification</strong>, used by <strong>UNIQA Group across 17 countries</strong>.
-          </li>
-          <li>
-            <strong>Led training sessions for 200+ diverse CMS users</strong> (tech and non-tech, young and senior), delivering one-on-one and seminar-style sessions, <strong>ensuring effective use of the platform</strong> as new features were continuously developed.
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section id="education">
-      <h2>Education</h2>
-      <div class="education-item">
-        <h3 class="toggle-title" onclick="toggleList('phd-list')">
-          <span class="triangle">&#9656;</span> Expected Oct. 2025, PhD in Computer Science
-        </h3>
-        <a target="_blank" href="https://www.tuwien.at/en/">TU Wien</a>, Austria <ul id="phd-list" class="toggle-list">
-          <li>
-            <strong>Thesis:</strong> Leveraging the Subtle: Hidden Factors in Recommender Systems.
-          </li>
-          <li>
-            <strong>Relevant Coursework:</strong> Recommender Systems, Deep Learning, Research Methods.
-          </li>
-          <li>
-            <strong>GPA:</strong> 3.89
-          </li>
-        </ul>
-      </div>
-      <div class="education-item">
-        <h3 class="toggle-title" onclick="toggleList('masters-list')">
-          <span class="triangle">&#9656;</span> June 2018, Master’s in Computer Science and Economics
-        </h3>
-        <a target="_blank" href="https://www.tuwien.at/en/">TU Wien</a>, Austria <ul id="masters-list" class="toggle-list">
-          <li>
-            <strong>Thesis:</strong> Classifying and Mapping e-Tourism Data Sets.
-          </li>
-          <li>
-            <strong>Relevant Coursework:</strong> Machine Learning, Software Engineering & Project Management, Econometrics.
-          </li>
-          <li>
-            <strong>GPA:</strong> 3.71
-          </li>
-        </ul>
-      </div>
-      <div class="education-item">
-        <h3 class="toggle-title" onclick="toggleList('bachelors-list')">
-          <span class="triangle">&#9656;</span> July 2011, Bachelor’s in Computer Science and Economics
-        </h3>
-        <a target="_blank" href="https://www.tuwien.at/en/">TU Wien</a>, Austria <ul id="bachelors-list" class="toggle-list">
-          <li>
-            <strong>Thesis:</strong> Gesture-Based Interfaces.
-          </li>
-          <li>
-            <strong>Relevant Coursework:</strong> Programming, Algorithms & Data Structures, Mathematics, Statistics & Probability.
-          </li>
-          <li>
-            <strong>GPA:</strong> 2.81
-          </li>
-        </ul>
-      </div>
+        <h2>Professional Experience</h2>
+        <div class="experience-item">
+            <h3>Oct. 2018 - Jan. 2024, Research Assistant </h3>
+            <p><a target="_blank" href="https://www.tuwien.at/en/">TU Wien</a>, Austria </p>
+            <p>
+              As a Research Assistant at TU Wien, I conducted extensive research in User Modeling, Recommender Systems, and Information Retrieval, collaborating with researchers from diverse backgrounds and open-sourcing impactful tools and artifacts. I worked closely with industry partners, aligning research with practical needs, and shared my expertise in the classroom—lecturing, assisting in courses, and mentoring students to support their academic and professional growth.</p>
+            <p class="toggle-title" onclick="toggleList('tuwien-list')"> <span class="triangle">&#9656;</span>Details</p>
+            <ul id="tuwien-list" class="toggle-list">
+              <li> <strong>Published 30+ research papers (15 as first author), with 450+ citations</strong>, by conducting extensive research in Information Retrieval (IR) and Recommender Systems (RecSys) and collaborating with diverse research teams. </li>
+                <li> <strong>Increased accessibility and impact of research tools</strong> by developing and open-sourcing IR and RecSys demos, repositories, and tools, resulting in 20+ GitHub stars and 10+ forks. </li>
+                <li> <strong>Led industry collaboration and grant writing efforts</strong>, securing funding (thousands of euros) and maintaining partnerships with companies like <a href="https://geizhals.at">Geizhals</a>, <a href="https://www.falter.at">Falter</a>, <a href="https://youknowme.best/">YouKnowMeBest</a>, <a href="https://www.oida-app.com">OIDA</a>, and <a href="https://tripmakery.com">Tripmakery</a>. Gathered industry requirements, translated them into applied research plans, and aligned lab goals with partner business objectives through regular meetings and updates. </li>
+                <li> <strong>Independently led and transitioned a 70-student Social Network Analysis course online</strong> during COVID-19, covering all lectures, Zoom sessions, and assessments in the primary lecturer’s absence due to maternity leave. </li>
+                <li> <strong>Enhanced inclusivity in a 130-student Recommender Systems course</strong> by shifting practicals to auto-graded Jupyter Notebooks and managing Jupyter Lab resources, ensuring access for students with limited technology. </li>
+                <li> <strong>Mentored 30 students annually in Innovation course</strong>, guiding student teams of 5 through ideation, business plan development, mockups, pitches, and financial projections, including cost, revenue, and break-even calculations. </li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Sept. 2014 - Sept. 2017, Data Engineer</h3>
+            <p><a target="_blank" href="https://www.linkedin.com/company/wingpaper/">Wingpaper</a>, Austria </p>
+            <p>At Wingpaper, a startup aiming to create a "YouTube for documents," I focused on enhancing platform scalability and accessibility. My role involved ingesting data—primarily PDFs—transforming it into searchable and presentable formats. To make content more engaging, I developed a hybrid recommender system that used both content-based and collaborative filtering, boosting recommendation quality and improving user engagement metrics.</p>
+            <p class="toggle-title" onclick="toggleList('wingpaper-list')"> <span class="triangle">&#9656;</span>Details</p>
+            <ul id="wingpaper-list" class="toggle-list">
+                <li> <strong>Boosted system scalability</strong> by designing and implementing a microservice architecture with Redis and RabbitMQ. </li>
+                <li> <strong>Increased document processing speed by 12x (from 2 to 24 pages per second)</strong> by developing and scaling microservices for indexing, information extraction (using Elastic and Python), and PDF-to-HTML5 conversion (pdf2htmlex). </li>
+                <li> <strong>Improved recommendations, achieving a .25 improvement in NDCG@5 and a 5% increase in CTR</strong> by building a hybrid recommender system that combines content-based (keyword extraction) and collaborative filtering (interaction data) techniques using Python. </li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Apr. 2008 - Aug. 2014, Web Developer</h3>
+            <p><a target="_blank" href="https://www.hypercms.com/home/index.xhtml?langcode=EN">hyperCMS </a>, Austria</p>
+            <p>As a Web Developer at hyperCMS, I developed scalable, customized web solutions for global clients and built a comprehensive e-learning platform. I also provided hands-on training to ensure effective platform use across diverse user groups.</p>
+            <p class="toggle-title" onclick="toggleList('hypercms-list')"> <span class="triangle">&#9656;</span>Details</p>
+            <ul id="hypercms-list" class="toggle-list">
+                <li> <strong>Developed custom modules and templates</strong> using HTML, CSS, JavaScript, PHP, and MySQL for <strong>clients in 20+ countries</strong>, supporting <strong>over 500 employees</strong>. The resulting webpages <strong>served millions of customers</strong>. </li>
+                <li> <strong>Built a fully integrated e-learning platform</strong> within the CMS, featuring custom templates for <strong>quizzes, automated grading, and certification</strong>, used by <strong>UNIQA Group across 17 countries</strong>. </li>
+                <li> <strong>Led training sessions for 200+ diverse CMS users</strong> (tech and non-tech, young and senior), delivering one-on-one and seminar-style sessions, <strong>ensuring effective use of the platform</strong> as new features were continuously developed. </li>
+            </ul>
+        </div>
     </section>
     <section id="awards">
-      <h2>Awards</h2>
-      <h3>June 2023, <a target="_blank" href="https://x.com/UMAPconf/status/1673589761901035520">Best Reviewer Nominee, UMAP 2023</a>
-      </h3>
-      <p>Recognized as <strong>one of 16 nominees for best reviewer out of 264 reviewers</strong>, demonstrating a commitment to research quality. </p>
-      <h3>Feb. 2020, <a target="_blank" href="https://x.com/m_sertkan/status/1233512984489660416">Winner, i²c STARTacademy 2020</a>
-      </h3>
-      <p>
-        <strong>Pitched ImageTwin</strong>, a tool to combat plagiarism and data fabrication, and <strong>won a €5,000 scholarship</strong> with workplace incubation at TUWi2 (TU Wien's startup incubator).
-      </p>
-      <h3>Jan. 2019, <a target="_blank" href="https://www.ec.tuwien.ac.at/node/6633">IFITT Journal Paper of the Year Award 2019</a>
-      </h3>
-      <p>Awarded Best Article for “ <strong>What is the Personality of a Tourism Destination?</strong>” published in Information Technology & Tourism, selected as top article out of <strong>31 submissions</strong>. </p>
-      <h3>Jan. 2019, <a target="_blank" href="https://www.ec.tuwien.ac.at/node/6632">IFITT Master Thesis Excellence Award 2019</a>
-      </h3>
-      <p>Won Best Master’s Thesis Award for “ <strong>Classifying and Mapping e-Tourism Data Sets</strong>”, selected out of <strong>27 thesis submissions</strong>. </p>
+        <h2>Awards</h2>
+        <h3>June 2023, <a target="_blank" href="https://x.com/UMAPconf/status/1673589761901035520">Best Reviewer Nominee, UMAP 2023</a> </h3>
+        <p>Recognized as <strong>one of 16 nominees for best reviewer out of 264 reviewers</strong>, demonstrating a commitment to research quality. </p>
+        <h3>Feb. 2020, <a target="_blank" href="https://x.com/m_sertkan/status/1233512984489660416">Winner, i²c STARTacademy 2020</a> </h3>
+        <p> <strong>Pitched ImageTwin</strong>, a tool to combat plagiarism and data fabrication, and <strong>won a €5,000 scholarship</strong> with workplace incubation at TUWi2 (TU Wien's startup incubator). </p>
+        <h3>Jan. 2019, <a target="_blank" href="https://www.ec.tuwien.ac.at/node/6633">IFITT Journal Paper of the Year Award 2019</a> </h3>
+        <p>Awarded Best Article for “ <strong>What is the Personality of a Tourism Destination?</strong>” published in Information Technology & Tourism, selected as top article out of <strong>31 submissions</strong>. </p>
+        <h3>Jan. 2019, <a target="_blank" href="https://www.ec.tuwien.ac.at/node/6632">IFITT Master Thesis Excellence Award 2019</a> </h3>
+        <p>Won Best Master’s Thesis Award for “ <strong>Classifying and Mapping e-Tourism Data Sets</strong>”, selected out of <strong>27 thesis submissions</strong>. </p>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Expected Oct. 2025, PhD in Computer Science</h3>
+            <p><a target="_blank" href="https://www.tuwien.at/en/">TU Wien</a>, Austria</p>
+            <p class="toggle-title" onclick="toggleList('phd-list')"> <span class="triangle">&#9656;</span>Details</p>
+            <ul id="phd-list" class="toggle-list">
+                <li> <strong>Thesis:</strong> Leveraging the Subtle: Hidden Factors in Recommender Systems. </li>
+                <li> <strong>Relevant Coursework:</strong> Recommender Systems, Deep Learning, Research Methods. </li>
+                <li> <strong>GPA:</strong> 3.89 </li>
+            </ul>
+        </div>
+        <div class="education-item">
+            <h3>June 2018, Master’s in Computer Science and Economics</h3>
+            <p><a target="_blank" href="https://www.tuwien.at/en/">TU Wien</a>, Austria</p>
+            <p class="toggle-title" onclick="toggleList('masters-list')"> <span class="triangle">&#9656;</span>Details</p>
+            <ul id="masters-list" class="toggle-list">
+                <li> <strong>Thesis:</strong> Classifying and Mapping e-Tourism Data Sets. </li>
+                <li> <strong>Relevant Coursework:</strong> Machine Learning, Software Engineering & Project Management, Econometrics. </li>
+                <li> <strong>GPA:</strong> 3.71 </li>
+            </ul>
+        </div>
+        <div class="education-item">
+            <h3>July 2011, Bachelor’s in Computer Science and Economics</h3> 
+            <p><a target="_blank" href="https://www.tuwien.at/en/">TU Wien</a>, Austria</p>
+            <p class="toggle-title" onclick="toggleList('bachelors-list')"> <span class="triangle">&#9656;</span>Details</p>
+            <ul id="bachelors-list" class="toggle-list">
+                <li> <strong>Thesis:</strong> Gesture-Based Interfaces. </li>
+                <li> <strong>Relevant Coursework:</strong> Programming, Algorithms & Data Structures, Mathematics, Statistics & Probability. </li>
+                <li> <strong>GPA:</strong> 2.81 </li>
+            </ul>
+        </div>
     </section>
     <section id="certificates">
-      <h2>Certificates</h2>
-      <h3>May 2024, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/LDQ78WKS2WWA">Natural Language Processing</a>
-      </h3>
-      <p>Issued by <em>DeepLearning.AI</em>
-      </p>
-      <h3>Mar. 2024, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/6T9S86FTDEC7">IBM Data Science</a>
-      </h3>
-      <p>Issued by <em>IBM</em>
-      </p>
-      <h3>Feb. 2024, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/PCCD73PZRFEF">Google Advanced Data Analytics</a>
-      </h3>
-      <p>Issued by <em>DeepLearning.AI</em>
-      </p>
-      <h3>Dec. 2023, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/CABH7ACAEPBN">Machine Learning</a>
-      </h3>
-      <p>Issued by <em>DeepLearning.AI and Stanford University</em>
-      </p>
-      <h3>Sept. 2020, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/GEJMWV9PCHFH">Mathematics for Machine Learning</a>
-      </h3>
-      <p>Issued by <em>Imperial College London</em>
-      </p>
-      <h3>Mar. 2020, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/2UE743EL943C">Deep Learning</a>
-      </h3>
-      <p>Issued by <em>DeepLearning.AI</em>
-      </p>
+        <h2>Certificates</h2>
+        <h3>May 2024, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/LDQ78WKS2WWA">Natural Language Processing</a> </h3>
+        <p>Issued by <em>DeepLearning.AI</em> </p>
+        <h3>Mar. 2024, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/6T9S86FTDEC7">IBM Data Science</a> </h3>
+        <p>Issued by <em>IBM</em> </p>
+        <h3>Feb. 2024, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/PCCD73PZRFEF">Google Advanced Data Analytics</a> </h3>
+        <p>Issued by <em>DeepLearning.AI</em> </p>
+        <h3>Dec. 2023, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/CABH7ACAEPBN">Machine Learning</a> </h3>
+        <p>Issued by <em>DeepLearning.AI and Stanford University</em> </p>
+        <h3>Sept. 2020, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/GEJMWV9PCHFH">Mathematics for Machine Learning</a> </h3>
+        <p>Issued by <em>Imperial College London</em> </p>
+        <h3>Mar. 2020, <a target="_blank" href="https://www.coursera.org/account/accomplishments/specialization/2UE743EL943C">Deep Learning</a> </h3>
+        <p>Issued by <em>DeepLearning.AI</em> </p>
     </section>
-  </body>
+    <section id="academic-voluntary-services">
+        <h2>Academic & Voluntary Services</h2>
+        <h3>Jan. 2020 – Oct. 2023, Program Committee Member</h3>
+        <p>Reviewed submissions for major conferences and journals, including <strong>ENTER, CIKM, JITT, RecSys, SIGIR,</strong> and <strong>UMAP</strong>, contributing to the quality and rigor of academic discourse in information retrieval and recommender systems.</p>
+        <h3>July 2022, Streaming & Broadcasting Chair, <a target="_blank" href="https://www.um.org/umap2022/">UMAP 2022</a></h3>
+        <p>Led <strong>online session management</strong> and <strong>video production</strong> for the UMAP 2022 Conference, coordinating with a team of four to ensure smooth online participation for all attendees.</p>
+        <h3>Sep. 2022 – Oct. 2023, Team Member, <a target="_blank" href="https://www.vhh-project.eu/">Visual History of the Holocaust</a></h3>
+        <p>Enhanced accessibility of Soviet Holocaust film documentation by implementing an <strong>OCR-Translate-Index pipeline</strong> and conducting a comparative study, selecting <strong>DeepL</strong> as the optimal tool for translating caption sheets and reports.</p>
+        <h3>Mar. 2020 – Apr. 2023, Organization Committee Member, <a target="_blank" href="https://caiml.org/dighum/">Digital Humanism Initiative (DIGHUM)</a></h3>
+        <p>Launched DIGHUM during COVID by <strong>setting up a website</strong>, managing <strong>bi-weekly virtual lectures</strong>, and creating a <strong>YouTube channel (100+ videos, 1300+ subscribers)</strong>. Supported the <strong>DIGHUM manifesto with 1000+ signatures</strong> and coordinated four on-site workshops.</p>
+    </section>
+</body>
+
 </html>

@@ -1,6 +1,6 @@
 function toggleList(id) {
     const list = document.getElementById(id);
-    const triangle = list.previousElementSibling.previousElementSibling.querySelector(".triangle");
+    const triangle = list.previousElementSibling.querySelector(".triangle");
 
     // Toggle display of the list
     if (list.style.display === 'none' || list.style.display === '') {

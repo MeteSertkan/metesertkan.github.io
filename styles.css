@@ -94,11 +94,12 @@ a:hover {
     color: #007bff;
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 .triangle {
     display: inline-block;
-    font-size: 1.5em; /* Larger triangle */
+    font-size: 1.2em; /* Larger triangle */
     transition: transform 0.3s ease; /* Smooth rotation */
     margin-right: 8px;
 }
